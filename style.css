@@ -33,6 +33,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 ol, ul {
@@ -53,12 +55,13 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 72px;
-  color: #248232;
-  letter-spacing: 13px;
+img {
+  padding: 90px;
+}
+
+h3 {
+  letter-spacing: 3px;
+  font-weight: normal;
 }
 
 
