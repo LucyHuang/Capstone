@@ -33,8 +33,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+  font-family: 'open sans', sans-serif;
 }
 
 ol, ul {
@@ -55,13 +54,43 @@ table {
   border-spacing: 0;
 }
 
-img {
-  padding: 90px;
+h2 {
+  font-size: 16px;
+  text-align: center;
 }
 
 h3 {
-  letter-spacing: 3px;
+  font-size: 13px;
   font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+img {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  padding: 20px 20px 0px 20px;
+  font-weight: normal;
+}
+
+iframe {
+  padding: 50px 0px 50px 0px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.unseenScience {
+  width: 300px;
+}
+
+.header {
+  width: 300px;
 }
 
 
@@ -72,9 +101,7 @@ h3 {
 
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
+  font-size: 13px;
 }
 
 
@@ -88,6 +115,40 @@ html, body {
   body {
     width: 980px;
     margin: 0 auto;
+  }
+  img {
+    padding-top: 90px;
+    padding-bottom: 45px;
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .header {
+    width: 540px;
+  }
+  .video {
+    width: 1000px;
+    height: 526px;
+  }
+  .soundcloud {
+    width: 1000px;
+  }
+  .unseenScience {
+    width: 1000px;
+  }
+  .menu {
+    padding: 20px;
   }
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
